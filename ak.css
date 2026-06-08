@@ -20,15 +20,17 @@ body{
 
 
 
-header{
+header{ 
     height:200px;
     background:
     linear-gradient(
         rgba(0, 0, 1, 0.591),
-        rgba(0, 0, 1, 0.591);
-    )
+        rgba(0, 0, 1, 0.591)
+    ),
 }
-    h1{
+   
+
+h1{
 
     font-family:'Cinzel Decorative';
     font-size:90px;
@@ -37,7 +39,7 @@ header{
     justify-content:center;
     align-items:center;
     text-align:center;
-    }
+}
 
 
 /* TITLE */
@@ -97,7 +99,6 @@ footer{
     text-align:center;
     padding:40px;
     background:#2d0000;
-    background width: fill-rule;
     margin-top: 280px;
     margin-bottom: 0px;
 

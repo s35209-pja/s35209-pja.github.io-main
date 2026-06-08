@@ -3,7 +3,7 @@ scroll-behavior:smooth;
 }
 
 body{
-margin:0;
+margin: 0;
 
 
 line-height:1.8;
@@ -60,10 +60,7 @@ background-color: #2d0000;
 text-align:center;
 padding: 80px 40px;
 
-```
-position:sticky;
-top:0;
-```
+position-top:0;
 
 }
 
@@ -77,9 +74,13 @@ transition:0.3s;
 }
 
 nav a:hover{
-font-size:40px;
+font-size:35px;
 color: hsl(170, 100%, 70%);
+
+font-weight: bold; 
 transition:0.3s;
+
+
 }
 
 .container{

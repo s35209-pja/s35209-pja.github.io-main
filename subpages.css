@@ -3,9 +3,18 @@ html{
 }
 
 body{
-    margin: 0px 0px;
-    background-color:#000000;
     line-height:1.8;
+
+    background:
+    linear-gradient(
+        rgba(0, 0, 1, 0.813),
+        rgba(0, 0, 1, 0.813)
+    ),
+    url("obrazki_witcher/sklep.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 
@@ -17,12 +26,11 @@ header{
     justify-content:center;
     align-items:center;
     text-align:center;
-    url("witcher.jpg");
 }
 
-/* TITLE */
+
 h1{
-    margin top: 50px;
+    margin-top: 50px;
     font-family:'Cinzel Decorative';
     font-size:90px;
     color:hsl(0,100%,60%);
@@ -80,7 +88,7 @@ h3{
 
 #sizes{
 font-family:'MedievalSharp';
-    font-size:20px;
+    font-size:10px;
     color:hsla(0, 0%, 87%, 0.712);
     text-align:center;
     margin-top:30px;
@@ -124,10 +132,9 @@ label{
 #sklep.bg-section{
   background: 
   linear-gradient(
-      rgba(0,0,0,0.9),
-        rgba(0, 0, 0, 0.61)
-
-  ),
+      rgba(0, 0, 0, 0.484),
+        rgba(0, 0, 0, 0.564)
+        ),
         url("obrazki_witcher/sklep.jpg");
 
     background-size:cover;
@@ -180,22 +187,5 @@ footer p{
 
 
 
-#pp{
-    margin: 0px 0px;
-    line-height:1.8;
-
-    background:
-    linear-gradient(
-        rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0)
-    ),
-    url("obrazki_witcher/witcherfour.webp");
-
-    background-size:cover;
-
-    background-position:center;
-    background-attachment:fixed;
-    margin-bottom: 0px 0px;
-    }
 
 
